@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyAppali1</string>
+    <string name="creat_your_first_custom_keyboard_application">creat your first custom keyboard application</string>
+    <string name="enable_keyboard">enable keyboard</string>
+    <string name="choose_keyboard">choose keyboard</string>
+    <string name="todo">TODO</string>
+</resources>
