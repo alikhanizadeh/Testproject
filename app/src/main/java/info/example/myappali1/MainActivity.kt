@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         val inputMethodManager =
             getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
         val enabledInputMethodIDs = inputMethodManager.enabledInputMethodList.map { it.id }
-        return enabledInputMethodIDs.contains("info.example.myappali1/.MyKeyBoard")
+        return enabledInputMethodIDs.contains("info.example.myappali1/.mykeyboard_layout")
     }
 
     private fun openKeyboardChooserSittings() {

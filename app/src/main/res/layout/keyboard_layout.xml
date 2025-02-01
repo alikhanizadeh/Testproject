@@ -10,6 +10,21 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/btnEmoji"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@mipmap/ic_launcher"
+            android:contentDescription="@string/todo" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginHorizontal="5dp"
         android:gravity="center"
@@ -256,8 +271,15 @@
         android:layout_marginHorizontal="5dp"
         android:gravity="center"
         android:orientation="horizontal"
-        android:weightSum="10"
+        android:weightSum="7"
         tools:ignore="UselessLeaf,UselessParent">
+
+        <ImageButton
+            android:id="@+id/btnTop"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@mipmap/ic_launcher"
+            android:contentDescription="TODO" />
 
 
         <Button
@@ -308,11 +330,12 @@
             android:layout_weight="1"
             android:text="m" />
 
-        <Button
+        <ImageButton
             android:id="@+id/btnBackSpace"
-            style="@style/btnDarkTheme"
-            android:layout_weight="3"
-            android:text="Back" />
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@mipmap/ic_launcher"
+            android:contentDescription="@string/todo" />
 
 
 
@@ -329,8 +352,15 @@
         android:layout_marginHorizontal="5dp"
         android:gravity="center"
         android:orientation="horizontal"
-        android:weightSum="10"
+        android:weightSum="8"
         tools:ignore="UselessLeaf,UselessParent">
+
+        <ImageButton
+            android:id="@+id/btnLanguech"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@mipmap/ic_launcher"
+            android:contentDescription="@string/todo" />
 
 
         <Button
@@ -342,9 +372,12 @@
 
         <Button
             android:id="@+id/btnSpace"
-            style="@style/btnDarkTheme"
-            android:layout_weight="5"
-            android:text="Space" />
+            style="@style/btnLightTheme"
+            android:layout_weight="6"
+            android:text="English(UK)"
+            android:textAllCaps="false"
+            android:textSize="17sp"
+            android:textStyle="bold" />
 
 
         <Button
@@ -354,17 +387,15 @@
             android:text="." />
 
 
-        <Button
+        <ImageButton
             android:id="@+id/btnEnter"
-            style="@style/btnDarkTheme"
-            android:layout_weight="3"
-            android:text="Enter" />
-
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@mipmap/ic_launcher"
+            android:contentDescription="@string/todo" />
 
 
     </LinearLayout>
-
-
 
 
 </LinearLayout>
